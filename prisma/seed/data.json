@@ -1,0 +1,607 @@
+[
+    {
+        "id": "1",
+        "name": "Electronics",
+        "products": [
+            {
+                "productId": "EL001",
+                "stock": 10,
+                "eta": 14,
+                "linkToImg": "https://static.fnac-static.com/multimedia/Images/FR/MDM/a8/8d/7f/8359336/3756-1/tsp20230224182624/Apple-iPhone-13-Pro-Max-6-7-5G-1-To-Double-SIM-Vert-Alpin.jpg",
+                "productPrice": {
+                    "price": 1339.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Apple iPhone 13 Pro Max",
+                        "productShortDescription": "The latest iPhone with 6.7-inch Super Retina XDR display",
+                        "productLongDescription": "The iPhone 13 Pro Max features an A15 Bionic chip, 5G capability, Pro camera system, and up to 1TB of storage."
+                    },
+                    {
+                        "languageId": "nl",
+                        "productName": "Apple iPhone 13 Pro Max",
+                        "productShortDescription": "De nieuwste iPhone met 6,7-inch Super Retina XDR-display",
+                        "productLongDescription": "De iPhone 13 Pro Max heeft een A15 Bionic-chip, 5G-functionaliteit, een Pro-camerasysteem en tot 1 TB opslagruimte."
+                    }
+                ]
+            },
+            {
+                "productId": "EL002",
+                "stock": 5,
+                "eta": 21,
+                "productPrice": {
+                    "price": 899.99
+                },
+                "linkToImg": "https://static.fnac-static.com/multimedia/Images/FR/NR/c4/cb/d6/14076868/1505-1/tsp20220209164333/SAMSUNG-S22-ULTRA-5G-256GB-GREEN.jpg",
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Samsung Galaxy S22 Ultra",
+                        "productShortDescription": "The latest Samsung flagship with 6.8-inch AMOLED display",
+                        "productLongDescription": "The Samsung Galaxy S22 Ultra features an Exynos 2200 chip, 5G capability, a quad-camera system, and up to 1TB of storage."
+                    },
+                    {
+                        "languageId": "nl",
+                        "productName": "Samsung Galaxy S22 Ultra",
+                        "productShortDescription": "Het nieuwste Samsung-vlaggenschip met 6,8-inch AMOLED-display",
+                        "productLongDescription": "De Samsung Galaxy S22 Ultra heeft een Exynos 2200-chip, 5G-functionaliteit, een quad-camerasysteem en tot 1 TB opslagruimte."
+                    }
+                ]
+            },
+            {
+                "productId": "EL003",
+                "stock": 15,
+                "eta": 7,
+                "productPrice": {
+                    "price": 599.99
+                },
+                "linkToImg": "https://image.coolblue.be/max/2048x1536/products/1456752",
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Sony PlayStation 5",
+                        "productShortDescription": "The latest PlayStation with 4K gaming and 3D audio",
+                        "productLongDescription": "The Sony PlayStation 5 features a custom AMD Zen 2 processor, 4K gaming, and support for 3D audio."
+                    },
+                    {
+                        "languageId": "nl",
+                        "productName": "Sony PlayStation 5",
+                        "productShortDescription": "De nieuwste PlayStation met 4K-gaming en 3D-audio",
+                        "productLongDescription": "De Sony PlayStation 5 heeft een aangepaste AMD Zen 2-processor, 4K-gaming en ondersteuning voor 3D-audio."
+                    }
+                ]
+            },
+            {
+                "productId": "EL004",
+                "stock": 20,
+                "eta": 10,
+                "productPrice": {
+                    "price": 1599.99
+                },
+                "linkToImg": "https://static.fnac-static.com/multimedia/Images/FR/MDM/f2/f4/e7/15201522/1505-1/tsp20220630190319/PC-Portable-Dell-XPS-15-9500-15-6-Intel-Core-i9-16-Go-RAM-1-To-D-Argent-Exclusivite.jpg",
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Dell XPS 15 Laptop",
+                        "productShortDescription": "A high-performance laptop with a 15.6-inch 4K UHD display",
+                        "productLongDescription": "The Dell XPS 15 laptop features a 11th Gen Intel Core i7 processor, NVIDIA GeForce RTX 3050 graphics, and up to 1TB of storage."
+                    },
+                    {
+                        "languageId": "nl",
+                        "productName": "Dell XPS 15 Laptop",
+                        "productShortDescription": "Een krachtige laptop met een 15,6-inch 4K UHD-display",
+                        "productLongDescription": "De Dell XPS 15-laptop heeft een 11e generatie Intel Core i7-processor, NVIDIA GeForce RTX 3050-graphics en tot 1 TB opslagruimte."
+                    }
+                ]
+            }
+        ],
+        "orders": [
+            {
+                "orderId": "1",
+                "orderDateTime": "2022-12-30T12:00:00.000Z",
+                "carrier": {
+                    "id": "1"
+                },
+                "companyId": "2",
+                "trackAndTrace": {
+                    "status": "Received",
+                    "number": "010511234567890",
+                    "verificationCode": "2565",
+                    "orderId": "1",
+                    "carrierId": "1"
+                }
+            }
+        ],
+        "notifications": [
+            {
+                "title": "Status Update",
+                "description": "Your order with order id 1 has been processed",
+                "companyId": "2",
+                "read": true,
+                "orderId": "1"
+            },
+            {
+                "title": "Status Update",
+                "description": "Your order with order id 1 has been shipped",
+                "companyId": "2",
+                "orderId": "1"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Clothing",
+        "products": [
+            {
+                "productId": "CL001",
+                "stock": 10,
+                "eta": 14,
+                "productPrice": {
+                    "price": 59.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Levi's 501 Original Fit Jeans",
+                        "productShortDescription": "Classic straight-leg jeans from Levi's",
+                        "productLongDescription": "The Levi's 501 Original Fit Jeans feature a classic straight-leg cut and a button fly. They're made from 100% cotton denim and come in a range of washes and sizes."
+                    }
+                ]
+            },
+            {
+                "productId": "CL002",
+                "stock": 20,
+                "eta": 7,
+                "productPrice": {
+                    "price": 89.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Nike Men's Dri-FIT Training T-Shirt",
+                        "productShortDescription": "Sweat-wicking t-shirt for men",
+                        "productLongDescription": "The Nike Men's Dri-FIT Training T-Shirt is made with sweat-wicking fabric to keep you dry and comfortable during your workout. It features a crew neck design and a regular fit."
+                    }
+                ]
+            },
+            {
+                "productId": "CL003",
+                "stock": 15,
+                "eta": 10,
+                "productPrice": {
+                    "price": 99.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Adidas Women's Ultraboost Running Shoes",
+                        "productShortDescription": "Comfortable and stylish running shoes for women",
+                        "productLongDescription": "The Adidas Women's Ultraboost Running Shoes are designed to provide comfort and support for your feet during your runs. They feature a Primeknit upper, a responsive Boost midsole, and a flexible outsole."
+                    }
+                ]
+            },
+            {
+                "productId": "CL004",
+                "stock": 8,
+                "eta": 21,
+                "productPrice": {
+                    "price": 149.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Tommy Hilfiger Men's Classic Puffer Jacket",
+                        "productShortDescription": "Warm and stylish jacket for men",
+                        "productLongDescription": "The Tommy Hilfiger Men's Classic Puffer Jacket is made with a durable nylon shell and a warm down fill. It features a stand-up collar, a zip front closure, and a logo patch on the chest."
+                    }
+                ]
+            },
+            {
+                "productId": "CL005",
+                "stock": 12,
+                "eta": 14,
+                "productPrice": {
+                    "price": 79.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Levi's Women's 721 High Rise Skinny Jeans",
+                        "productShortDescription": "High-rise skinny jeans for women",
+                        "productLongDescription": "The Levi's Women's 721 High Rise Skinny Jeans are designed to flatter your figure and provide all-day comfort. They feature a high-rise waist, a slim fit through the hips and thighs, and a skinny leg opening."
+                    }
+                ]
+            },
+            {
+                "productId": "CL006",
+                "stock": 20,
+                "eta": 7,
+                "productPrice": {
+                    "price": 79.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Nike Air Max 270 React",
+                        "productShortDescription": "Comfortable and stylish sneakers from Nike",
+                        "productLongDescription": "The Nike Air Max 270 React features a lightweight and breathable design, perfect for all-day wear. They also offer responsive cushioning and a stylish look that can be dressed up or down."
+                    }
+                ]
+            },
+            {
+                "productId": "CL007",
+                "stock": 15,
+                "eta": 10,
+                "productPrice": {
+                    "price": 129.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Patagonia Better Sweater Fleece Jacket",
+                        "productShortDescription": "Warm and cozy jacket from Patagonia",
+                        "productLongDescription": "The Patagonia Better Sweater Fleece Jacket is made from 100% recycled polyester fleece and features a zippered chest pocket and handwarmer pockets. It's perfect for chilly days and outdoor activities."
+                    }
+                ]
+            },
+            {
+                "productId": "CL008",
+                "stock": 5,
+                "eta": 21,
+                "productPrice": {
+                    "price": 159.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "The North Face McMurdo Parka",
+                        "productShortDescription": "Heavy-duty parka from The North Face",
+                        "productLongDescription": "The North Face McMurdo Parka is made from waterproof and breathable DryVent fabric and features a detachable hood, multiple pockets, and adjustable cuffs. It's perfect for extreme weather conditions."
+                    }
+                ]
+            },
+            {
+                "productId": "CL009",
+                "stock": 25,
+                "eta": 5,
+                "productPrice": {
+                    "price": 39.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "H&M Slim Fit Chinos",
+                        "productShortDescription": "Stylish and versatile pants from H&M",
+                        "productLongDescription": "The H&M Slim Fit Chinos feature a classic design and come in a variety of colors. They're made from a stretch cotton blend for a comfortable and flattering fit."
+                    }
+                ]
+            }
+        ],
+        "orders": [
+            {
+                "orderId": "2",
+                "orderDateTime": "2023-02-05T12:00:00.000Z",
+                "carrier": {
+                    "id": "1"
+                },
+                "companyId": "1",
+                "trackAndTrace": {
+                    "status": "Received",
+                    "number": "010511234567891",
+                    "verificationCode": "2565",
+                    "orderId": "2",
+                    "carrierId": "1"
+                },
+                "orderItems": [
+                    {
+                        "productId": "CL001",
+                        "quantity": 1,
+                        "orderId": "2"
+                    },
+                    {
+                        "productId": "CL002",
+                        "quantity": 1,
+                        "orderId": "2"
+                    }
+                ]
+            }
+        ],
+        "notifications": [
+            {
+                "title": "Status Update",
+                "description": "Your order with order id 2 has been processed",
+                "companyId": "1",
+                "read": true,
+                "orderId": "2"
+                
+            },
+            {
+                "title": "Status Update",
+                "description": "Your order with order id 2 has been shipped",
+                "companyId": "1",
+                "orderId": "2"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Home & Kitchen",
+        "products": [
+            {
+                "productId": "HK001",
+                "stock": 10,
+                "eta": 14,
+                "productPrice": {
+                    "price": 299.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Instant Pot Duo 7-in-1 Electric Pressure Cooker",
+                        "productShortDescription": "A versatile electric pressure cooker",
+                        "productLongDescription": "The Instant Pot Duo 7-in-1 Electric Pressure Cooker can be used as a pressure cooker, slow cooker, rice cooker, steamer, sauté pan, yogurt maker, and warmer. It has a 6-quart capacity and comes with 13 pre-programmed settings."
+                    }
+                ]
+            },
+            {
+                "productId": "HK002",
+                "stock": 15,
+                "eta": 10,
+                "productPrice": {
+                    "price": 189.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Dyson Cyclone V10 Absolute Lightweight Cordless Stick Vacuum Cleaner",
+                        "productShortDescription": "A powerful cordless vacuum cleaner",
+                        "productLongDescription": "The Dyson Cyclone V10 Absolute Lightweight Cordless Stick Vacuum Cleaner features a powerful motor and cyclone technology for effective cleaning. It's lightweight and cordless, with up to 60 minutes of run time on a single charge."
+                    }
+                ]
+            },
+            {
+                "productId": "HK003",
+                "stock": 20,
+                "eta": 7,
+                "productPrice": {
+                    "price": 149.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Ninja BL770 Mega Kitchen System Blender",
+                        "productShortDescription": "A powerful blender for all your kitchen needs",
+                        "productLongDescription": "The Ninja BL770 Mega Kitchen System Blender comes with a 72-ounce blending pitcher, 64-ounce food processor bowl, and two 16-ounce Nutri Ninja cups with to-go lids. It features a powerful motor and multiple speed settings for all your blending needs."
+                    }
+                ]
+            },
+            {
+                "productId": "HK004",
+                "stock": 12,
+                "eta": 5,
+                "productPrice": {
+                    "price": 79.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Instant Pot Air Fryer Lid",
+                        "productShortDescription": "Transform your Instant Pot into an air fryer",
+                        "productLongDescription": "The Instant Pot Air Fryer Lid lets you transform your Instant Pot into an air fryer. It features a crisp mode for crispy food and a fan for even cooking. It fits most 6-quart Instant Pot models."
+                    }
+                ]
+            },
+            {
+                "productId": "HK005",
+                "stock": 8,
+                "eta": 14,
+                "productPrice": {
+                    "price": 249.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "iRobot Roomba 960 Robot Vacuum",
+                        "productShortDescription": "A high-tech robot vacuum cleaner",
+                        "productLongDescription": "The iRobot Roomba 960 Robot Vacuum features mapping technology and adaptive navigation to clean your home effectively. It can be controlled with a smartphone app or voice commands with Amazon Alexa or Google Assistant. It also features automatic recharging and resume cleaning."
+                    }
+                ]
+            }
+        ],
+        "orders": [
+            {
+                "orderId": "3",
+                "orderDateTime": "2023-01-05T12:00:00.000Z",
+                "carrier": {
+                    "id": "1"
+                },
+                "companyId": "1",
+                "trackAndTrace": {
+                    "status": "Received",
+                    "number": "010511234567892",
+                    "verificationCode": "2565",
+                    "orderId": "3",
+                    "carrierId": "1"
+                }
+            }
+        ],
+        "notifications": [
+            {
+                "title": "Status Update",
+                "description": "Your order with order id 3 has been processed",
+                "companyId": "1",
+                "read": true,
+                "orderId": "3"
+
+            },
+            {
+                "title": "Status Update",
+                "description": "Your order with order id 3 has been shipped",
+                "companyId": "1",
+                "orderId": "3"
+
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Beauty & Personal Care",
+        "products": [
+            {
+                "productId": "BP001",
+                "stock": 10,
+                "eta": 14,
+                "productPrice": {
+                    "price": 5.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Dove Beauty Bar",
+                        "productShortDescription": "A moisturizing bar soap",
+                        "productLongDescription": "The Dove Beauty Bar is a moisturizing bar soap that cleanses and nourishes the skin. It's suitable for daily use and is available in a range of scents."
+                    }
+                ]
+            },
+            {
+                "productId": "BP002",
+                "stock": 15,
+                "eta": 7,
+                "productPrice": {
+                    "price": 9.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Garnier Fructis Shampoo",
+                        "productShortDescription": "Strengthening shampoo with active fruit protein",
+                        "productLongDescription": "Garnier Fructis Shampoo is a strengthening shampoo that contains active fruit protein to strengthen hair from within. It leaves hair feeling healthier and stronger with each wash."
+                    }
+                ]
+            },
+            {
+                "productId": "BP003",
+                "stock": 20,
+                "eta": 5,
+                "productPrice": {
+                    "price": 12.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Nivea Men's Body Wash",
+                        "productShortDescription": "Refreshing body wash for men",
+                        "productLongDescription": "Nivea Men's Body Wash is a refreshing body wash that cleanses and nourishes the skin. It has a masculine scent and is formulated with Hydra IQ technology to keep skin hydrated."
+                    }
+                ]
+            },
+            {
+                "productId": "BP004",
+                "stock": 25,
+                "eta": 3,
+                "productPrice": {
+                    "price": 8.49
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Secret Antiperspirant",
+                        "productShortDescription": "Antiperspirant deodorant for women",
+                        "productLongDescription": "Secret Antiperspirant is a long-lasting antiperspirant deodorant that provides 48-hour odor and wetness protection. It has a clean scent and is designed for women."
+                    }
+                ]
+            }
+        ],
+        "orders": [
+            {
+                "orderId": "4",
+                "orderDateTime": "2023-01-15T12:00:00.000Z",
+                "carrier": {
+                    "id": "1"
+                },
+                "companyId": "1",
+                "trackAndTrace": {
+                    "status": "Received",
+                    "number": "010511234567893",
+                    "verificationCode": "2565",
+                    "orderId": "4",
+                    "carrierId": "1"
+                }
+            }
+        ],
+        "notifications": [
+            {
+                "title": "Status Update",
+                "description": "Your order with order id 4 has been processed",
+                "companyId": "1",
+                "read": true,
+                "orderId": "4"
+
+            },
+            {
+                "title": "Status Update",
+                "description": "Your order with order id 4 has been shipped",
+                "companyId": "1",
+                "orderId": "4"
+
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Sports & Outdoors",
+        "products": [
+            {
+                "productId": "SO001",
+                "stock": 10,
+                "eta": 14,
+                "productPrice": {
+                    "price": 7999.99
+                },
+                "productDescription": [
+                    {
+                        "languageId": "en",
+                        "productName": "Nike Air Zoom Pegasus 37",
+                        "productShortDescription": "A lightweight running shoe",
+                        "productLongDescription": "The Nike Air Zoom Pegasus 37 is a lightweight running shoe that features a breathable mesh upper and a responsive Zoom Air unit in the heel."
+                    }
+                ]
+            }
+        ],
+        "orders": [
+            {
+                "orderId": "5",
+                "orderDateTime": "2023-02-25T12:00:00.000Z",
+                "carrier": {
+                    "id": "1"
+                },
+                "companyId": "1",
+                "trackAndTrace": {
+                    "status": "Received",
+                    "number": "010511234567894",
+                    "verificationCode": "2565",
+                    "orderId": "5",
+                    "carrierId": "1"
+                }
+            }
+        ],
+        "notifications": [
+            {
+                "title": "Status Update",
+                "description": "Your order with order id 5 has been processed",
+                "companyId": "1",
+                "read": true,
+                "orderId": "5"
+
+            },
+            {
+                "title": "Status Update",
+                "description": "Your order with order id 5 has been shipped",
+                "companyId": "1",
+                "orderId": "5"
+
+            }
+        ]
+    }
+]

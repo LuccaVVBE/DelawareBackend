@@ -1,0 +1,94 @@
+{
+    "carrier": {
+        "id": "1",
+        "name": "Bpost",
+        "phone": "02 201 23 45",
+        "email": "info@bpost.be",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Bpost_logo.svg/2560px-Bpost_logo.svg.png",
+        "amountOfCharacters": 15,
+        "numOnly": true,
+        "prefix": "0105"
+    },
+    "company": [
+        {
+            "id": "1",
+            "name": "Company",
+            "image": "https://static.vecteezy.com/system/resources/previews/008/214/517/original/abstract-geometric-logo-or-infinity-line-logo-for-your-company-free-vector.jpg",
+            "address": {
+                "id": "1",
+                "name": "Schoonmeersen",
+                "street": "Valentijn Vaerwyckweg",
+                "number": "1",
+                "city": "Ghent",
+                "zipCode": 9000,
+                "country": "Belgium"
+            },
+            "employees": [
+                {
+                    "customerId": "auth0|64076ee27830c4ae35f403a4",
+                    "firstName": "Jochen",
+                    "secondName": "Van Severen",
+                    "phoneNr": "+32 473 54 58 88",
+                    "email": "jochenvanseveren@outlook.com",
+                    "companyId": "1"
+                },
+                {
+                    "customerId": "auth0|6412e317e1c7518de65f9078",
+                    "firstName": "Fatih",
+                    "secondName": "Salman",
+                    "phoneNr": "+32 473 54 58 88",
+                    "email": "fatih.salman@student.hogent.be",
+                    "companyId": "1"
+                },
+                {
+                    "customerId": "auth0|641b583bd409fc2c0a02d3b9",
+                    "firstName": "Fedor",
+                    "secondName": "Danilov",
+                    "phoneNr": "+32 473 54 58 88",
+                    "email": "random@gmail.com",
+                    "companyId": "1"
+                },
+                {
+                    "customerId": "auth0|6410d5b8f8cf658d7f5c0e0e",
+                    "firstName": "Lucca",
+                    "secondName": "Van Veerdeghem",
+                    "phoneNr": "+32 473 54 58 88",
+                    "email": "lucca.van.veerdeghem@telenet.be",
+                    "companyId": "1"
+                },
+                {
+                    "customerId": "auth0|641b7e2c3cfca01041886353",
+                    "firstName": "test firstname",
+                    "secondName": "test lastname",
+                    "phoneNr": "+32 473 54 58 88",
+                    "email": "testuser@test.com",
+                    "companyId": "1"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Company",
+            "image": "https://static.vecteezy.com/system/resources/previews/008/214/517/original/abstract-geometric-logo-or-infinity-line-logo-for-your-company-free-vector.jpg",
+            "address": {
+                "id": "2",
+                "name": "Schoonmeersen",
+                "street": "Valentijn Vaerwyckweg",
+                "number": "1",
+                "city": "Ghent",
+                "zipCode": 9000,
+                "country": "Belgium"
+            },
+            "employees": [
+                {
+                    "customerId": "auth0|640b82779556f167f65c50ad",
+                    "firstName": "Nataliia",
+                    "secondName": "Chapaieva",
+                    "phoneNr": "+32 473 54 58 88",
+                    "email": "nataliia.chapaieva@student.hogent.be",
+                    "companyId": "2"
+                }
+            ]
+        }
+    ]
+}

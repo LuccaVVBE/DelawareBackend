@@ -1,0 +1,49 @@
+{
+  "name": "2023-backend-gent15",
+  "version": "1.0.0",
+  "description": "Backend to the school project of second semester",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "yarn env-cmd nodemon server.js",
+    "test": "jest --verbose ./__tests__",
+    "test:coverage": "yarn test --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoGentProjectenII/2023-backend-gent15.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoGentProjectenII/2023-backend-gent15/issues"
+  },
+  "homepage": "https://github.com/HoGentProjectenII/2023-backend-gent15#readme",
+  "dependencies": {
+    "@prisma/client": "^4.10.1",
+    "axios": "^1.3.4",
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.18.2",
+    "express-joi-validation": "^5.0.1",
+    "express-jwt": "^8.4.1",
+    "express-oauth2-jwt-bearer": "^1.3.0",
+    "jest-each": "^29.4.3",
+    "joi": "^17.8.3",
+    "jsonwebtoken": "^9.0.0",
+    "jwks-rsa": "^3.0.1",
+    "prisma": "^4.10.1",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "csv": "6.2.7",
+    "jest": "^29.4.3",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20",
+    "superagent": "^8.0.9",
+    "supertest": "^6.3.3"
+  },
+  "prisma": {
+    "seed": "node prisma/seedMock.js"
+  }
+}
